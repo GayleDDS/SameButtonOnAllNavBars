@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DDSBaseViewController.h"
 
-@interface DDSViewController : UIViewController
+@interface DDSDetailViewController : DDSBaseViewController
 
 @end

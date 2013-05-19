@@ -6,18 +6,18 @@
 //  Copyright (c) 2013 Gayle Dunham. All rights reserved.
 //
 
-#import "DDSViewController.h"
+#import "DDSDetailViewController.h"
 
-@interface DDSViewController ()
+@interface DDSDetailViewController ()
 
 @end
 
-@implementation DDSViewController
+@implementation DDSDetailViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning

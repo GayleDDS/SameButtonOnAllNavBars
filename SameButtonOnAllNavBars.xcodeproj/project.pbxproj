@@ -17,12 +17,17 @@
 		C333773C174821DF00AF4F9C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C333773B174821DF00AF4F9C /* Default@2x.png */; };
 		C333773E174821DF00AF4F9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C333773D174821DF00AF4F9C /* Default-568h@2x.png */; };
 		C3337741174821DF00AF4F9C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C333773F174821DF00AF4F9C /* MainStoryboard.storyboard */; };
-		C3337744174821DF00AF4F9C /* DDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3337743174821DF00AF4F9C /* DDSViewController.m */; };
+		C3337744174821DF00AF4F9C /* DDSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3337743174821DF00AF4F9C /* DDSDetailViewController.m */; };
 		C333774C174821DF00AF4F9C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C333774B174821DF00AF4F9C /* SenTestingKit.framework */; };
 		C333774D174821DF00AF4F9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3337727174821DF00AF4F9C /* UIKit.framework */; };
 		C333774E174821DF00AF4F9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3337729174821DF00AF4F9C /* Foundation.framework */; };
 		C3337756174821DF00AF4F9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3337754174821DF00AF4F9C /* InfoPlist.strings */; };
 		C3337759174821DF00AF4F9C /* SameButtonOnAllNavBarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3337758174821DF00AF4F9C /* SameButtonOnAllNavBarsTests.m */; };
+		C333776417484DC900AF4F9C /* DDSMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C333776317484DC900AF4F9C /* DDSMainTableViewController.m */; };
+		C333776717484DEC00AF4F9C /* DDSBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C333776617484DEC00AF4F9C /* DDSBaseTableViewController.m */; };
+		C333776A1748645B00AF4F9C /* DDSDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33377691748645B00AF4F9C /* DDSDetailTableViewController.m */; };
+		C333776D1748647600AF4F9C /* DDSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C333776C1748647600AF4F9C /* DDSBaseViewController.m */; };
+		C33377701748675600AF4F9C /* DDSAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C333776F1748675600AF4F9C /* DDSAboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +55,24 @@
 		C333773B174821DF00AF4F9C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C333773D174821DF00AF4F9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C3337740174821DF00AF4F9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C3337742174821DF00AF4F9C /* DDSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDSViewController.h; sourceTree = "<group>"; };
-		C3337743174821DF00AF4F9C /* DDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDSViewController.m; sourceTree = "<group>"; };
+		C3337742174821DF00AF4F9C /* DDSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDSDetailViewController.h; sourceTree = "<group>"; };
+		C3337743174821DF00AF4F9C /* DDSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDSDetailViewController.m; sourceTree = "<group>"; };
 		C333774A174821DF00AF4F9C /* SameButtonOnAllNavBarsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SameButtonOnAllNavBarsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C333774B174821DF00AF4F9C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C3337753174821DF00AF4F9C /* SameButtonOnAllNavBarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SameButtonOnAllNavBarsTests-Info.plist"; sourceTree = "<group>"; };
 		C3337755174821DF00AF4F9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3337757174821DF00AF4F9C /* SameButtonOnAllNavBarsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SameButtonOnAllNavBarsTests.h; sourceTree = "<group>"; };
 		C3337758174821DF00AF4F9C /* SameButtonOnAllNavBarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SameButtonOnAllNavBarsTests.m; sourceTree = "<group>"; };
+		C333776217484DC900AF4F9C /* DDSMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSMainTableViewController.h; sourceTree = "<group>"; };
+		C333776317484DC900AF4F9C /* DDSMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSMainTableViewController.m; sourceTree = "<group>"; };
+		C333776517484DEC00AF4F9C /* DDSBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSBaseTableViewController.h; sourceTree = "<group>"; };
+		C333776617484DEC00AF4F9C /* DDSBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSBaseTableViewController.m; sourceTree = "<group>"; };
+		C33377681748645B00AF4F9C /* DDSDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSDetailTableViewController.h; sourceTree = "<group>"; };
+		C33377691748645B00AF4F9C /* DDSDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSDetailTableViewController.m; sourceTree = "<group>"; };
+		C333776B1748647600AF4F9C /* DDSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSBaseViewController.h; sourceTree = "<group>"; };
+		C333776C1748647600AF4F9C /* DDSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSBaseViewController.m; sourceTree = "<group>"; };
+		C333776E1748675600AF4F9C /* DDSAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSAboutViewController.h; sourceTree = "<group>"; };
+		C333776F1748675600AF4F9C /* DDSAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSAboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +132,21 @@
 		C333772D174821DF00AF4F9C /* SameButtonOnAllNavBars */ = {
 			isa = PBXGroup;
 			children = (
+				C333773F174821DF00AF4F9C /* MainStoryboard.storyboard */,
 				C3337736174821DF00AF4F9C /* DDSAppDelegate.h */,
 				C3337737174821DF00AF4F9C /* DDSAppDelegate.m */,
-				C333773F174821DF00AF4F9C /* MainStoryboard.storyboard */,
-				C3337742174821DF00AF4F9C /* DDSViewController.h */,
-				C3337743174821DF00AF4F9C /* DDSViewController.m */,
+				C333776517484DEC00AF4F9C /* DDSBaseTableViewController.h */,
+				C333776617484DEC00AF4F9C /* DDSBaseTableViewController.m */,
+				C333776B1748647600AF4F9C /* DDSBaseViewController.h */,
+				C333776C1748647600AF4F9C /* DDSBaseViewController.m */,
+				C333776217484DC900AF4F9C /* DDSMainTableViewController.h */,
+				C333776317484DC900AF4F9C /* DDSMainTableViewController.m */,
+				C33377681748645B00AF4F9C /* DDSDetailTableViewController.h */,
+				C33377691748645B00AF4F9C /* DDSDetailTableViewController.m */,
+				C3337742174821DF00AF4F9C /* DDSDetailViewController.h */,
+				C3337743174821DF00AF4F9C /* DDSDetailViewController.m */,
+				C333776E1748675600AF4F9C /* DDSAboutViewController.h */,
+				C333776F1748675600AF4F9C /* DDSAboutViewController.m */,
 				C333772E174821DF00AF4F9C /* Supporting Files */,
 			);
 			path = SameButtonOnAllNavBars;
@@ -273,7 +298,12 @@
 			files = (
 				C3337734174821DF00AF4F9C /* main.m in Sources */,
 				C3337738174821DF00AF4F9C /* DDSAppDelegate.m in Sources */,
-				C3337744174821DF00AF4F9C /* DDSViewController.m in Sources */,
+				C3337744174821DF00AF4F9C /* DDSDetailViewController.m in Sources */,
+				C333776417484DC900AF4F9C /* DDSMainTableViewController.m in Sources */,
+				C333776717484DEC00AF4F9C /* DDSBaseTableViewController.m in Sources */,
+				C333776A1748645B00AF4F9C /* DDSDetailTableViewController.m in Sources */,
+				C333776D1748647600AF4F9C /* DDSBaseViewController.m in Sources */,
+				C33377701748675600AF4F9C /* DDSAboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
